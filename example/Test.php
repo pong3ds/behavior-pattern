@@ -19,19 +19,19 @@ function run(){
 }
 
 function tryToFly($obj){
-    if($obj->isClassExtendedWith(Flyable::class)){
+    if($obj->hasAbilityTo(Flyable::class)){
         $obj->fly();
     }
 }
 
 function tryToFire($obj){
-    if($obj->isClassExtendedWith(Fireable::class)){
+    if($obj->hasAbilityTo(Fireable::class)){
         $obj->fire();
     }
 }
 
 function tryToJibJib($obj){
-    if($obj->isClassExtendedWith(JibJibable::class)){
+    if($obj->hasAbilityTo(JibJibable::class)){
         $obj->jibjib();
     }
 }

@@ -120,7 +120,7 @@ trait ExtendableTrait
      * @param  string $name Fully qualified behavior name
      * @return boolean
      */
-    public function isClassExtendedWith($name)
+    public function hasAbilityTo($name)
     {
         $name = str_replace('.', '\\', trim($name));
         return isset($this->extensionData['extensions'][$name]);
