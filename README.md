@@ -1,4 +1,4 @@
-## Behavior Pattern เพื่อการศึกษา Prefer Composition to Inheritance
+## Behavior Pattern เพื่อการศึกษา Composition over Inheritance
 
 จากกรณีศึกษา Bird กับ IronMan
 
