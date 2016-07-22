@@ -1,6 +1,6 @@
-<?php namespace October\Rain\Extension;
+<?php
 
-use Closure;
+require_once "ExtendableTrait.php";
 
 /**
  * Extension class
