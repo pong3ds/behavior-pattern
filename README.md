@@ -43,7 +43,7 @@
         }
     }
 
-ลอง run Test แบบนี้:
+Code Test เป็นแบบนี้:
 
     function run(){
         $bird = new Bird();
@@ -77,7 +77,7 @@
         }
     }
 
-จะได้ผลลัพท์แบบนี้:
+ลอง php Test.php จะได้ผลลัพท์แบบนี้:
 
 	I am a Bird , and I am flying
     I am a Bird , and I am Jib Jib
