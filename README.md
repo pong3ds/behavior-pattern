@@ -83,3 +83,5 @@ Code Test เป็นแบบนี้:
     I am a Bird , and I am Jib Jib
     I am a IronMan , and I am flying
     I am a IronMan , and I am firing missile
+
+Credit Extendable.php และ ExtendableTrait.php จาก OctoberCMS http://octobercms.com
